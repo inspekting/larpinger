@@ -5,16 +5,16 @@ custom ports, subnet expansion, and a live TUI. Continuous by default.
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│ LARPinger  multi-protocol ping   LIVE   4 targets · interval 1000ms │
+│ LARPinger  multi-protocol ping   LIVE   4 targets · interval 1000ms  │
 ├──────────────────────────────────────────────────────────────────────┤
 │  ▲ up 3   ▼ down 1   sent 128  recv 121  loss 5.5%  avg 12.4ms       │
 ├──────────────────────────────────────────────────────────────────────┤
 │  TARGET           PROTO PORT STATUS   LAST    MIN   AVG   MAX  LOSS  │
-│▸ 192.168.1.1      ICMP  —    ● UP     1.20ms  0.9   1.3   4.1  0%   │
-│  192.168.1.10:443 TCP   443  ● UP     0.84ms  0.7   0.9   2.0  0%   │
-│  10.0.0.5:53      UDP   53   ◐ OPEN   —       —     —     —    —    │
+│▸ 192.168.1.1      ICMP  —    ● UP     1.20ms  0.9   1.3   4.1  0%    │
+│  192.168.1.10:443 TCP   443  ● UP     0.84ms  0.7   0.9   2.0  0%    │
+│  10.0.0.5:53      UDP   53   ◐ OPEN   —       —     —     —    —     │
 ├──────────────────────────────────────────────────────────────────────┤
-│ detail  192.168.1.1  ICMP  ● UP   ▁▂▁▃▂▁▁▂▅▂▁▂   err: —             │
+│ detail  192.168.1.1  ICMP  ● UP   ▁▂▁▃▂▁▁▂▅▂▁▂   err: —              │
 └──────────────────────────────────────────────────────────────────────┘
  q quit   space pause   r reset   ↑↓/jk select   +/- interval
 ```
